@@ -25,7 +25,8 @@ public class SearchNilai25modif {
 
         if (posisi != -1) {
             System.out.println("Nilai ketemu " + key + ", merupakan nilai mahasiswa ke-" + (posisi + 1));
-           
+        } else { 
+            System.out.println("Nilai yang dicari tidak ditemukan");
         }
     }
 }
