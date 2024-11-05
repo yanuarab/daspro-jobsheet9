@@ -8,7 +8,7 @@ public class ArrayNilai25modif {
             System.out.print("Masukan nilai akhir-"+i+" : ");
             nilaiAkhir[i] = sc.nextInt();
         }
-        for(int i = 0; i < 10; i++){
+        for(int i = 0; i < nilaiAkhir.length; i++){
             System.out.println("Nilai akhir ke-"+i+"adalah"+nilaiAkhir [i]);
         }
     }
