@@ -5,7 +5,7 @@ public class PemesananKafe25 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Masukkan jumlah pesanan: ");
         int jumlahPesanan = sc.nextInt();
-        sc.nextLine(); // Membersihkan buffer setelah nextInt()
+        sc.nextLine(); 
 
         String[] namaPesanan = new String[jumlahPesanan];
         double[] hargaPesanan = new double[jumlahPesanan];
